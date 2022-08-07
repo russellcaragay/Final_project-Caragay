@@ -25,20 +25,21 @@
         android:layout_marginBottom="20dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
-        android:src="@drawable/logo"
+        android:src="@drawable/final_logo"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="40sp"
-        android:textColor="@color/black"
+        android:textColor = "?android:textColorPrimary"
         android:layout_marginBottom="10dp"
         android:text="Welcome"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15sp"
+        android:textColor = "?android:textColorPrimary"
         android:layout_marginBottom="30dp"
         android:text="Please sign in to continue"/>
 
@@ -50,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Username:"
-        android:textColor="@color/black"
+        android:textColor = "?android:textColorPrimary"
         android:layout_marginRight="10dp"
         android:textSize="15sp" />
 
@@ -70,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Password:"
-            android:textColor="@color/black"
+            android:textColor = "?android:textColorPrimary"
             android:layout_marginRight="10dp"
             android:textSize="15sp" />
 
@@ -88,7 +89,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
-        android:backgroundTint="@color/black"
         android:text="login"/>
 
     <TextView

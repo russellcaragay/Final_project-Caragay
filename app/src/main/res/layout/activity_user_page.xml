@@ -22,7 +22,8 @@
     <ImageView
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:src="@drawable/avatar"/>
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/user"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -39,14 +40,14 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:textSize="40sp"
-        android:textColor="@color/black"
+        android:textColor = "?android:textColorPrimary"
         android:textStyle=""
         android:text="username"/>
 
     <Button android:id="@+id/signout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
+
         android:text="sign out"/>
 
 </LinearLayout>
